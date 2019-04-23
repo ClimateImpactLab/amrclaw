@@ -247,7 +247,7 @@ module amr_module
     ! ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     real(kind=8)  rvoll(maxlv),evol,rvol,avenumgrids(maxlv)
     integer ::  iregridcount(maxlv), tvoll(maxlv)
-    integer :: timeRegridding, timeUpdating, timeValout
+    integer :: timeRegridding, timeUpdating, timeValout, timeIntegration, needs_to_be_set_counter
     integer :: timeFlglvl,timeGrdfit2,timeGrdfit3,timeGrdfitAll
     integer :: timeBound,timeStepgrid
     integer :: timeFlagger, timeBufnst,timeTick, tick_clock_start

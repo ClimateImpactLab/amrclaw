@@ -104,6 +104,8 @@ c
       timeStepgrid       = 0
       timeStepgridCPU    = 0.d0
       timeBound          = 0
+      timeIntegration    = 0
+      needs_to_be_set_counter      = 0
       timeBoundCPU       = 0.d0
       timeGrdfitAll      = 0
       timeFlagger        = 0
